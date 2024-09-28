@@ -19,6 +19,7 @@ public class UserServiceImpl implements UserService {
     private final UserRepository userRepository;
     private PasswordEncoder passwordEncoder;
 
+
     @Autowired
     public void setPasswordEncoder(@Lazy PasswordEncoder passwordEncoder) {
         this.passwordEncoder = passwordEncoder;
